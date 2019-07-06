@@ -18,6 +18,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --config ./config/webpack.config.js"
+    "start": "webpack-dev-server --mode development --config ./config/webpack.dev.config.js",
+    "build": "webpack --config ./config/webpack.prod.config.js"
   }
 }
